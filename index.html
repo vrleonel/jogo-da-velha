@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div>Jogar agora: <span id="piece"></span></div>
+      <div>Vencedor: <span id="result"></span></div>
+      <table>
+        <tr>
+          <td data-position="0,0"></td>
+          <td data-position="0,1"></td>
+          <td data-position="0,2"></td>
+        </tr>
+        <tr>
+          <td data-position="1,0"></td>
+          <td data-position="1,1"></td>
+          <td data-position="1,2"></td>
+        </tr>
+        <tr>
+          <td data-position="2,0"></td>
+          <td data-position="2,1"></td>
+          <td data-position="2,2"></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button id="start-game">Iniciar</button>
+    </div>
+    <script src="src/index.js" type="module"></script>
+  </body>
+</html>
